@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content%} 
+
+<form  method="post" action="/answer">
+    <input type="text" name="guess" placeholder="Enter your guess">
+<br>
+<br>
+<button type="submit">Submit</button>
+</form>
+
+{% endblock content %}
